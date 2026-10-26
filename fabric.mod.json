@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "legitpvp",
+  "version": "${version}",
+  "name": "Legit PvP Client",
+  "description": "Cheat-free PvP HUD: FPS, CPS, keystrokes, armor status, toggle sprint.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.legitpvp.LegitPvpClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
